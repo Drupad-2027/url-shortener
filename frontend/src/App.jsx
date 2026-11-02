@@ -15,7 +15,7 @@ import confetti from 'canvas-confetti';
 import QRCode from 'qrcode';
 import './App.css';
 
-const BACKEND_URL = 'http://localhost:8080';
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://url-shortener-backend-k7ks.onrender.com';
 
 export default function App() {
   const [longUrl, setLongUrl] = useState('');

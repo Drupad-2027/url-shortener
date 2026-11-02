@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL || "https://url-shortener-backend-k7ks.onrender.com";
+
 export default function App() {
 
   const [longUrl, setLongUrl] = useState("");
@@ -15,7 +17,7 @@ export default function App() {
     try {
 
       const response = await fetch(
-        "http://localhost:8080/shorten",
+        `${API_BASE_URL}/shorten`,
         {
           method: "POST",
 
@@ -32,7 +34,7 @@ export default function App() {
       const shortCode = await response.text();
 
       setShortUrl(
-        `http://localhost:8080/${shortCode}`
+        `${API_BASE_URL}/${shortCode}`
       );
 
     } catch (error) {
