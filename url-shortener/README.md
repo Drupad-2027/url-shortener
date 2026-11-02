@@ -122,12 +122,6 @@ https://url-shortener-backend-k7ks.onrender.com/b
 
 ---
 
-## 🔹Render Deployment
-
-![PostgreSQL Database](assets/RenderDeployement.png)
-
----
-
 # 🧪 Local Setup
 
 ## Clone Repository
