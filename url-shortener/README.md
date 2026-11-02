@@ -7,10 +7,10 @@ A scalable full-stack URL Shortener built using Spring Boot, PostgreSQL, Redis, 
 # 🌐 Live Demo
 
 ## Frontend
-https://urlshortner-gold-seven.vercel.app/
+https://url-shortener-peach-three-60.vercel.app
 
 ## Backend API
-https://url-shortener-2x3u.onrender.com
+https://url-shortener-backend-k7ks.onrender.com
 
 ---
 
@@ -96,7 +96,7 @@ GET /{shortCode}
 ### Example
 
 ```http
-https://url-shortener-2x3u.onrender.com/a1B
+https://url-shortener-backend-k7ks.onrender.com/b
 ```
 
 ---
