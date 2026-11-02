@@ -109,11 +109,6 @@ https://url-shortener-backend-k7ks.onrender.com/b
 
 ---
 
-## 🔹 Postman Testing
-
-![Postman Testing](assets/postmanTesting.png)
-
----
 
 ## 🔹 Redis Cache Verification
 
@@ -138,7 +133,7 @@ https://url-shortener-backend-k7ks.onrender.com/b
 ## Clone Repository
 
 ```bash
-git clone https://github.com/SyntaxNova/url-shortener.git
+git clone https://github.com/Drupad-2027/url-shortener.git
 ```
 
 ---
